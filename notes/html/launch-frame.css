@@ -1,0 +1,66 @@
+.youtube-frame {
+    background-color:white;
+    width: 402px;
+    height:500px;
+}
+#notes-frame {
+    background-color: rgb(250, 250, 250);
+    border: 1px solid rgb(155,155,155);
+    width: inherit;
+    height: inherit;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding:15px;
+    /*background-color: brown;*/
+}
+
+.center {
+    /*margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;*/
+    /*
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);*/
+    display: block;
+    justify-content: center;
+    align-items: center;
+    postion: static;
+    position: static;
+}
+
+
+.buttonUpload {
+    color:black;
+    background-color: white;
+    display: block;
+    margin: 60px;
+    padding: 7px 35px;
+    font: 100 100% Arial;
+    border: 3px solid black;
+    cursor: pointer;
+    /*width: 75px;*/
+    position:relative;
+} 
+
+.buttonUpload:hover  {
+    background: #f7f7f7;
+    border: 3px solid #464646;
+}
+
+.buttonUpload:active {
+    background: #2e2e2e;
+    border: 3px solid black;
+    color: white;
+}
+
+input[type="file"] {
+    display: none;
+}
+.custom-file-upload {
+        border: 1px solid #ccc;
+        display: inline-block;
+        padding: 6px 12px;
+        cursor: pointer;
+}
